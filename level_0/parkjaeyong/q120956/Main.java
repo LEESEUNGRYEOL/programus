@@ -6,7 +6,7 @@ class Solution {
         String[] caseStr = {"aya", "ye", "woo", "ma"};
         for(String str : babbling){
             for(String str2 : caseStr){
-                str = str.replaceAll(str2," ");
+                str = str.replace(str2," ");
             }
             if(str.strip().length() == 0) answer++;
         }
@@ -21,6 +21,7 @@ public class Main {
         int n = 10;
         int ans = sol.solution(new String[]{"aya", "yee", "u", "maa", "wyeoo"});
         System.out.println(ans);
+
     }
 }
 
