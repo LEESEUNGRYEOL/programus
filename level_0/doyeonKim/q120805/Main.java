@@ -1,17 +1,17 @@
-package level_0.q120804;
+package level_0.doyeonKim.q120805;
 
 public class Main {
     public static void main(String[] args) {
-        Solution sol = new Solution();
-        int num1 = 5;
-        int num2 = 3;
+        Soltuion sol = new Soltuion();
+        int num1 = 100;
+        int num2 = 2;
         int ans = sol.solution(num1, num2);
         System.out.println(ans);
     }
 }
 
-class Solution {
+class Soltuion {
     public int solution(int num1, int num2) {
-        return num1 * num2;
+        return num1 / num2;
     }
 }
