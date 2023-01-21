@@ -49,3 +49,7 @@ https://velog.io/@flaxinger/%EB%B0%B1%EC%A4%80%ED%97%88%EB%B8%8C-%EC%82%AC%EC%9A
 
 
 **" 혹시 git 관련 문의사항 있으시면 slack DM 혹은 게더에서 언제든지 물어봐주세요!"**
+
+백준허브로 올려진 파일 때문에 다른 파일들이 컴파일이 안되는 현상이 발생됐습니다.
+백준 허브 컴파일 애러 해결법
+Settings - > Build, Execution, Deployment -> Compiler - > Excludes -> +버튼 누른 후 컴파일 제외하고자 하는 파일 선택 후 OK
