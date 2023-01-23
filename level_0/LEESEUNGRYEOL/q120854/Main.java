@@ -17,7 +17,6 @@ class Solution {
         for (int i = 0; i < strlist.length; i++) {
             answer[i] = strlist[i].length();
         }
-
         return answer;
     }
 }
