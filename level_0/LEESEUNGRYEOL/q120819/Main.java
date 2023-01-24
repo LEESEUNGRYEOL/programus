@@ -20,7 +20,6 @@ class Solution {
             money = money - 5500;
             cnt++;
         }
-
         int[] answer = {cnt,money};
         return answer;
     }
