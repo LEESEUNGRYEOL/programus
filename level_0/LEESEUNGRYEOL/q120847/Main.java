@@ -1,41 +1,28 @@
-package level_0.LEESEUNGRYEOL.q120889;
+package level_0.LEESEUNGRYEOL.q120847;
 
 public class Main {
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int[] array = new int[]{3,7,7};
-        int answer = sol.solution(array);
+        int[] numbers = new int[]{1,2,3,4,5};
+
+        int answer = sol.solution(numbers);
         System.out.println(answer);
     }
 }
 
 class Solution {
+    int answer;
     int max = 0;
-    int max_index = 0;
-    int another = 0;
-    public int solution(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] >= max) {
-                max = array[i];
-                max_index = i;
+    public int solution(int[] numbers) {
+        for (int i = 0; i < numbers.length ; i++) {
+            for (int j = i+1; j < numbers.length ; j++) {
+                if(numbers[i]*numbers[j] > max)
+                {
+                    max = numbers[i]*numbers[j];
+                }
             }
         }
-
-        for (int i = 0; i <array.length ; i++) {
-            if (max_index != i)
-            {
-                another+= array[i];
-            }
-        }
-
-        if(another > max)
-        {
-            return 1;
-        }
-
-        else{
-            return 2;
-        }
-
+        answer = max;
+        return answer;
     }
 }
