@@ -14,3 +14,4 @@ class Solution {
 }
 
 // 순서쌍이 맞으면 쌍의 갯수(answer)가 1씩 늘어난다.
+//
