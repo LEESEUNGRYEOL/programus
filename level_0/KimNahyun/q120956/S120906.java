@@ -1,4 +1,4 @@
-package level_0.KimNahyun;
+package level_0.KimNahyun.q120956;
 
 class Solution {
     public int solution(int n) {
