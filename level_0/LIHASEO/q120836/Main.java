@@ -1,7 +1,5 @@
 package level_0.LIHASEO.q120836;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class Main {
     public static void main(String[] args) {
         Solution sol = new Solution();
