@@ -31,7 +31,9 @@ class Solution {
 
             }
             i++;
+
         }
+
         return flag == 0 ? 2:1;
     }
 }
