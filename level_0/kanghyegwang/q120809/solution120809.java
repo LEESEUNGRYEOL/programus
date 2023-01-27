@@ -19,13 +19,13 @@ class solution120809 {
         }
         return answer;
     }
-    public ArrayList<Integer> solution(int[] numbers) {
-        List<Integer> answer = new ArrayList<>();
-        for (int x : numbers) {
-            answer.add(x*2);
-        }
-        return answer;
-    }
+//    public ArrayList<Integer> solution(int[] numbers) {
+//        List<Integer> answer = new ArrayList<>();
+//        for (int x : numbers) {
+//            answer.add(x*2);
+//        }
+//        return answer;
+//    }
 }
 
 /*
