@@ -1,10 +1,10 @@
-package q120803;
+package level_0.JoMinSung.q120804;
 
 public class Main {
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int num1 = 1;
-        int num2 = 2;
+        int num1 = 5;
+        int num2 = 3;
         int ans = sol.solution(num1, num2);
         System.out.println(ans);
     }
@@ -12,6 +12,6 @@ public class Main {
 
 class Solution {
     public int solution(int num1, int num2) {
-        return num1 - num2;
+        return num1 * num2;
     }
 }
