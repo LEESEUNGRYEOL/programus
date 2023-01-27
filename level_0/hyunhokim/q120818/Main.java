@@ -1,0 +1,30 @@
+package q120818;
+
+//머쓱이네 옷가게는 10만 원 이상 사면 5%, 30만 원 이상 사면 10%, 50만 원 이상 사면 20%를 할인해줍니다.
+//구매한 옷의 가격 price가 주어질 때, 지불해야 할 금액을 return 하도록 solution 함수를 완성해보세요.
+
+public class Main {
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+        int price = 100000;
+        int answer = sol.solution(price);
+        System.out.println(answer);
+    }
+}
+
+class Solution {
+    public int solution(int price) {
+        float answer = 0;
+        // 조건 1 : 10만원 이상 5% / 30만원 이상 10% / 50만원 이상 20프로 if문 사용
+        // 조건 2 : 소수점 이하를 버린 정수 return
+
+        if (price >= 100000) {
+            answer = price*0.95f;
+        } else if (price >= 300000) {
+            answer = price*0.9f;
+        } else if (price >= 500000) {
+            answer = price*0.8f;
+        }
+        return (int) answer;
+    }
+}
