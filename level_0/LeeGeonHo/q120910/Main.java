@@ -3,8 +3,9 @@ package level_0.LeeGeonHo.q120910;
 public class Main {
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int n = 144;
-        System.out.println(sol.solution(n));
+        int n = 2;
+        int t =10;
+        System.out.println(sol.solution(n,t));
     }
 }
 
