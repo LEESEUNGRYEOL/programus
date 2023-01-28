@@ -10,4 +10,9 @@ class solution120824 {
         res[1] = odd;           // odd 에 홀수의 갯수
         return res;
     }
+
+    public static void main(String[] args) {
+        solution120824 T = new solution120824();
+
+    }
 }
