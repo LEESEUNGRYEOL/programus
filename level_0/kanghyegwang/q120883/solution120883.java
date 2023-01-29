@@ -1,4 +1,6 @@
-class solution120585 {
+package level_0.kanghyegwang.q120883;
+
+class solution120883{
     public String solution(String[] id_pw, String[][] db) { // 내가 푼 것 생각을 어렵게 함....
         String res = "";
         boolean dq = false;
@@ -20,7 +22,7 @@ class solution120585 {
     }
 
     // 내가 푼것 아님
-    public String solution(String[] id_pw, String[][] db) { // 훨씬 가독성 좋은 코드
+    public String solution2(String[] id_pw, String[][] db) { // 훨씬 가독성 좋은 코드
         for(int i = 0; i < db.length; i++) {
             if(id_pw[0].equals(db[i][0])) {                 // 아이디 같은지 확인
                 if(id_pw[1].equals(db[i][1])) {             // 같으면 비밀번호 확인
