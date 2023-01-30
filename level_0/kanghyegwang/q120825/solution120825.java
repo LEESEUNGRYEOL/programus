@@ -1,4 +1,4 @@
-class solution120824 {
+class solution120825 {
     public String solution(String str, int n) {
         String res = "";
         for (int i = 0; i < str.length(); i++) {
