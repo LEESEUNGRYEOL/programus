@@ -48,6 +48,7 @@ public class solution120844 {
         }
         return answer;
     }
+
     public int[] solution2(int[] n, String d) {
         // 위의 풀이 스트림을 이용
         List<Integer> list = Arrays.stream(n).boxed().collect(Collectors.toList());
